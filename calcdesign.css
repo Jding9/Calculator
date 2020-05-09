@@ -1,0 +1,53 @@
+#calcbody {
+    width: 50%;
+    height: 90%;
+    border: solid 1px black;
+    margin: auto;
+}
+
+#calcinnerbody {
+    width: 80%;
+    height: 80%;
+    margin: 10% 10% 10% 10%;
+    border: solid 1px black;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+
+#results {
+    width: 87%;
+    border: solid 1px black;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-right: 1%;
+    text-align: right;
+    font-size: 30px;
+}
+
+.button {
+    height: 80%;
+    display: inline-block;
+    border: solid 1px black;
+    margin: 2%;
+    font-size: 20px;
+}
+
+
+.small {
+    width: 15%;
+}
+
+.medium {
+    width: 63%;
+    float: left;
+}
+
